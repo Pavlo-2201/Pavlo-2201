@@ -5,7 +5,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=900&color=4E8FD6&center=true&vCenter=true&width=640&lines=Classic+ML+%E2%86%92+BERT+%E2%86%92+Semantic+search+%E2%86%92+RAG;Reproducible+experiments%2C+honest+test+evaluation;Learning+by+building+end-to-end+projects" alt="typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=900&color=4E8FD6&center=true&vCenter=true&width=640&lines=Classic+ML+%E2%86%92+BERT+%E2%86%92+Semantic+search+%E2%86%92+RAG;Reproducible+experiments;Learning+by+building+end-to-end+projects" alt="typing" />
 
 <br/>
 
@@ -19,8 +19,15 @@
 
 ## 👋 Обо мне
 
-Изучаю **машинное обучение и NLP**, Санкт-Петербургский политехнический университет Петра Великого.
-Учусь на собственных проектах и довожу каждый до конца.
+**ML / NLP** · студент СПбПУ Петра Великого · Санкт-Петербург
+
+- 🧠 **5 законченных ML-проектов** — от CatBoost на табличных данных до RAG с локальной LLM
+- 🤖 **Дообучение RuBERT** для поиска токсичных комментариев: F1 0.884, статистически значимо лучше TF-IDF (p = 0.002)
+- 🔍 **Семантический поиск и RAG** по документации MDN: e5 + FAISS + cross-encoder + Qwen2.5, Recall@10 0.68 против 0.50 у BM25
+- ⚙️ **Инженерный подход:** pytest, конфиги, воспроизводимые данные, CLI
+- ☕ **Бэкенд:** Spring Boot, Kafka, PostgreSQL, Docker
+
+📫 Быстрее всего отвечаю в Telegram — [@Pavel_Zhirkov](https://t.me/Pavel_Zhirkov)
 
 ## 🧭 Учебный путь в ML
 
