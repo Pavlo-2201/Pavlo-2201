@@ -5,13 +5,8 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=900&color=4E8FD6&center=true&vCenter=true&width=640&lines=Classic+ML+%E2%86%92+BERT+%E2%86%92+Semantic+search+%E2%86%92+RAG;Reproducible+experiments;Learning+by+building+end-to-end+projects" alt="typing" />
-
-<br/>
-
 [![Telegram](https://img.shields.io/badge/Telegram-%40Pavel__Zhirkov-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Pavel_Zhirkov)
 [![Email](https://img.shields.io/badge/pavelzhirk%40yandex.ru-FC3F1D?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:pavelzhirk@yandex.ru)
-![Profile views](https://komarev.com/ghpvc/?username=Pavlo-2201&style=for-the-badge&color=4e4376&label=VIEWS)
 
 </div>
 
