@@ -1,6 +1,6 @@
 <!-- Pavel Zhirkov · profile README -->
 <a href="https://github.com/Pavlo-2201">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2B5876,100:4E4376&height=180&section=header&text=Pavel%20Zhirkov&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=ML%20%26%20NLP%20%C2%B7%20Python%20%C2%B7%20%D0%A1%D0%9F%D0%B1%D0%9F%D0%A3&descSize=18&descAlignY=58" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2B5876,100:4E4376&height=180&section=header&text=Pavel%20Zhirkov&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=ML%20%C2%B7%20NLP%20%C2%B7%20Python%20%C2%B7%20%D0%A1%D0%9F%D0%B1%D0%9F%D0%A3&descSize=18&descAlignY=58" width="100%"/>
 </a>
 
 <div align="center">
