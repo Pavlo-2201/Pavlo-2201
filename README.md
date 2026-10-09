@@ -16,10 +16,9 @@
 
 **ML / NLP** · студент СПбПУ Петра Великого · Санкт-Петербург
 
-- 🧠 **5 законченных ML-проектов** — от CatBoost на табличных данных до RAG с локальной LLM
-- 🤖 **Дообучение RuBERT** для поиска токсичных комментариев: F1 0.884, статистически значимо лучше TF-IDF (p = 0.002)
-- 🔍 **Семантический поиск и RAG** по документации MDN: e5 + FAISS + cross-encoder + Qwen2.5, Recall@10 0.68 против 0.50 у BM25
-- ⚙️ **Инженерный подход:** pytest, конфиги, воспроизводимые данные, CLI
+- 🧠 **развиваю свои ML-проекты**
+- 🤖 **Дообучение RuBERT** для поиска токсичных комментариев: F1 0.884
+- 🔍 **Семантический поиск и RAG** по документации MDN: e5 + FAISS + cross-encoder + Qwen2.5, Recall@10 0.68
 - ☕ **Бэкенд:** Spring Boot, Kafka, PostgreSQL, Docker
 
 📫 Быстрее всего отвечаю в Telegram — [@Pavel_Zhirkov](https://t.me/Pavel_Zhirkov)
@@ -31,10 +30,10 @@
 | # | Проект | Что сделано | Результат на test |
 |---|---|---|---|
 | 1 | [**tabular-ml-pipeline**](https://github.com/Pavlo-2201/tabular-ml-pipeline) | Отток клиентов (IBM Telco): EDA, LogReg / RandomForest / CatBoost, подбор на 5-fold CV, выбор порога | ROC-AUC **0.845**, PR-AUC 0.666 |
-| 2 | [**russian-text-classification**](https://github.com/Pavlo-2201/russian-text-classification) | Токсичные комментарии на русском: TF-IDF (словные и символьные n-граммы) + линейные модели, анализ ошибок | F1 **0.854** |
-| 3 | [**rubert-text-classification**](https://github.com/Pavlo-2201/rubert-text-classification) | Та же задача: TF-IDF vs замороженный vs дообученный rubert-tiny2, свой цикл обучения на PyTorch | F1 **0.884** (+0.03, p = 0.002) |
-| 4 | [**semantic-search-engine**](https://github.com/Pavlo-2201/semantic-search-engine) | Поиск по русской документации MDN: BM25, LSA, word2vec, e5-small, FAISS; Recall@K, MRR, nDCG, задержки | Recall@10 **0.68** (BM25 — 0.50) |
-| 5 | [**rag-document-assistant**](https://github.com/Pavlo-2201/rag-document-assistant) | RAG по MDN полностью локально: e5-small + FAISS, cross-encoder rerank, Qwen2.5-1.5B (llama.cpp), ссылки на источники | отказ на 11 из 12 вопросов без ответа |
+| 2 | [**russian-text-classification**](https://github.com/Pavlo-2201/russian-text-classification) | Токсичные комментарии на русском: TF-IDF + линейные модели, анализ ошибок | F1 **0.854** |
+| 3 | [**rubert-text-classification**](https://github.com/Pavlo-2201/rubert-text-classification) | Та же задача: TF-IDF vs замороженный vs дообученный rubert-tiny2 | F1 **0.884** (+0.03, p = 0.002) |
+| 4 | [**semantic-search-engine**](https://github.com/Pavlo-2201/semantic-search-engine) | Поиск по русской документации MDN: BM25, LSA, word2vec, e5-small, FAISS; Recall@K, MRR, nDCG, задержки | Recall@10 **0.68** |
+| 5 | [**rag-document-assistant**](https://github.com/Pavlo-2201/rag-document-assistant) | RAG по MDN полностью локально: e5-small + FAISS, cross-encoder rerank, Qwen2.5-1.5B | отказ на 11 из 12 вопросов без ответа |
 
 ## 🗂 Другие проекты
 
