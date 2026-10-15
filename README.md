@@ -14,32 +14,24 @@
 
 ## 👋 Обо мне
 
-**ML / NLP** · студент СПбПУ Петра Великого · Санкт-Петербург
+Студент СПбПУ. Занимаюсь ML и NLP: от классических моделей до поиска и RAG с локальной LLM.
 
-- 🧠 **развиваю свои ML-проекты**
-- 🤖 **Дообучение RuBERT** для поиска токсичных комментариев: F1 0.884
-- 🔍 **Семантический поиск и RAG** по документации MDN: e5 + FAISS + cross-encoder + Qwen2.5, Recall@10 0.68
-- ☕ **Бэкенд:** Spring Boot, Kafka, PostgreSQL, Docker
+Telegram — [@Pavel_Zhirkov](https://t.me/Pavel_Zhirkov)
 
-📫 Быстрее всего отвечаю в Telegram — [@Pavel_Zhirkov](https://t.me/Pavel_Zhirkov)
+## 🧭 ML-проекты
 
-## 🧭 Учебный путь в ML
-
-Пять проектов, каждый опирается на предыдущий:
-
-| # | Проект | Что сделано | Результат на test |
+| # | Проект | Задача и подход | Результат на test |
 |---|---|---|---|
-| 1 | [**tabular-ml-pipeline**](https://github.com/Pavlo-2201/tabular-ml-pipeline) | Отток клиентов (IBM Telco): EDA, LogReg / RandomForest / CatBoost, подбор на 5-fold CV, выбор порога | ROC-AUC **0.845**, PR-AUC 0.666 |
-| 2 | [**russian-text-classification**](https://github.com/Pavlo-2201/russian-text-classification) | Токсичные комментарии на русском: TF-IDF + линейные модели, анализ ошибок | F1 **0.854** |
-| 3 | [**rubert-text-classification**](https://github.com/Pavlo-2201/rubert-text-classification) | Та же задача: TF-IDF vs замороженный vs дообученный rubert-tiny2 | F1 **0.884** (+0.03, p = 0.002) |
-| 4 | [**semantic-search-engine**](https://github.com/Pavlo-2201/semantic-search-engine) | Поиск по русской документации MDN: BM25, LSA, word2vec, e5-small, FAISS; Recall@K, MRR, nDCG, задержки | Recall@10 **0.68** |
-| 5 | [**rag-document-assistant**](https://github.com/Pavlo-2201/rag-document-assistant) | RAG по MDN полностью локально: e5-small + FAISS, cross-encoder rerank, Qwen2.5-1.5B | отказ на 11 из 12 вопросов без ответа |
+| 1 | [**tabular-ml-pipeline**](https://github.com/Pavlo-2201/tabular-ml-pipeline) | Отток клиентов (IBM Telco): LogReg / RandomForest / CatBoost, подбор на 5-fold CV, выбор порога | ROC-AUC **0.845**, PR-AUC 0.666 |
+| 2 | [**russian-text-classification**](https://github.com/Pavlo-2201/russian-text-classification) | Токсичные комментарии: символьный TF-IDF + LinearSVC, анализ ошибок | F1 **0.854** |
+| 3 | [**rubert-text-classification**](https://github.com/Pavlo-2201/rubert-text-classification) | Та же задача и разбиения: дообученный rubert-tiny2 на CPU | F1 **0.884**, на 0.03 выше TF-IDF (p = 0.002) |
+| 4 | [**semantic-search-engine**](https://github.com/Pavlo-2201/semantic-search-engine) | Поиск по русской документации MDN: BM25, LSA, word2vec, e5-small, FAISS | Recall@10 **0.68** (BM25 — 0.50) |
+| 5 | [**rag-document-assistant**](https://github.com/Pavlo-2201/rag-document-assistant) | RAG по MDN локально: e5-small + FAISS, cross-encoder, Qwen2.5-1.5B, ссылки на источники | отказ на **11 из 12** вопросов без ответа; узкое место — поиск |
 
-## 🗂 Другие проекты
+## 🗂 Другое
 
-- [**TaskTracker**](https://github.com/Pavlo-2201/TaskTracker) — многопользовательский планировщик задач: Spring Boot, Spring Security, Kafka, PostgreSQL, Docker Compose
-- [**fca_project**](https://github.com/Pavlo-2201/fca_project) — анализ формальных понятий с тестированием: pytest, Hypothesis, BDD, мутационное тестирование
 - [**algorithms-practice**](https://github.com/Pavlo-2201/algorithms-practice) — решения задач курса «Яндекс Алгоритмы 6.0» на Python
+- **TaskTracker** — многопользовательский планировщик задач: Spring Boot, Spring Security, Kafka, PostgreSQL, Docker Compose <!-- ссылку вернуть, если репозиторий станет публичным -->
 
 ## 🛠 Стек
 
